@@ -1,13 +1,16 @@
 [Adblock Plus 2.0]
+! Title: Seznam dodateÄnÃ½ch filtrÅ¯ otravnÃ½ch prvkÅ¯ strÃ¡nek
 
-! Title: Seznam dodateènıch filtrù otravnıch prvkù stránek
-
-! Skryje zaplacené inzeráty na Aukru
+! Skryje zaplacenÃ© inzerÃ¡ty na Aukru
 elektro.aukro.cz##[class="listFeatured"]
 
-! Skryje lidi v chatu na FB, kterøí nejsou on-line, ale pouze na mobilu
+! Skryje lidi v chatu na FB, kterÅ™Ã­ nejsou on-line, ale pouze na mobilu
 www.facebook.com##LI[class*="chatMobile"]
 
-! Skryje boxy s doporuèením stránek a pøátel na FB
+! Skryje boxy s doporuÄenÃ­m strÃ¡nek a pÅ™Ã¡tel na FB
 www.facebook.com##DIV[id*="pagelet_ego_"]
 www.facebook.com##DIV[class="ego_column egoOrganicColumn"]
+
+! Skryje bulvÃ¡rnÃ­ boxy na DenÃ­k.cz
+denik.cz##DIV[class="blesk-box"]
+denik.cz##DIV[class="sip-box"]
